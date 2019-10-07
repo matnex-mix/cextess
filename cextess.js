@@ -4,7 +4,7 @@ function CEXTESS() {
 
 	cxts_elements = document.querySelectorAll( '[-cxts-]' );
 	cxts_class = '';
-	const cxts_class_name_prefix = '-cxts-'+(Math.random()*(10**18));
+	cxts_class_name_prefix = '-cxts-'+(Math.random()*(10**18));
 	cxts_elements.forEach( function(cxts_element, index){
 		cxts_class_name = cxts_class_name_prefix+(index+1);
 		for( x=0; x<cxts_element.attributes.length; x++ ) {
